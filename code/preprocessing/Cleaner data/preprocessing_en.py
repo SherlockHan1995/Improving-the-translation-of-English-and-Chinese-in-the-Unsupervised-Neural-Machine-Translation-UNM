@@ -98,7 +98,7 @@ if __name__ == '__main__':
 		output_2, count_2 = rearrange_newlines(output_1)
 		print('Number of sentences impacted by \'2. rearrange new lines\': %d\n' % count_2)
 
-    # 3. remove sentences where 50%+ is punctuation
+                # 3. remove sentences where 50%+ is punctuation
 		output_3, count_3 = remove_sentences_50pc_punctuations(output_2)
 		print('Number of sentences impacted by \'3. remove sentences where 50 percent is punctuation\': %d\n' % count_3)
 
